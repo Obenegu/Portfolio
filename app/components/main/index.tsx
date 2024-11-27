@@ -6,16 +6,9 @@ import typescript from '../../assets/typescript-logo-72.png'
 import wordpress from '../../assets/wordpress-logo-72.png'
 import csharp from '../../assets/1175240gg.webp'
 import react from '../../assets/react-logo-72.png'
-import car from '../../assets/Card 3.png'
 import arow from '../../assets/Arrow right.png'
-import bloosat from '../../assets/boosat-bg3333.png'
-import design from '../../assets/design-1210160_12803333333.png'
-import city from '../../assets/city-7033105_1280yyyyy.png'
-import agora from '../../assets/port-1845350_128022.png'
 import thumbnail from '../../assets/art-4377201_1280.jpg'
 import geniusland from '../../assets/WhatsApp Image 2024-10-19 at 03.30.06_3e1bd5b0.jpg'
-import boa from '../../assets/Home Page.png'
-import Link from "next/link"
 
 
 
@@ -121,16 +114,16 @@ function AboutMe() {
 <section className="bg-gray-100 py-16 px-4">
 <div className="max-w-7xl mx-auto">
     {/* <!-- Section Heading --> */}
-    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8 md:text-4xl">
-    Mobile Development Expertise
+    <h2 className="text-xl font-bold text-center text-gray-800 mb-8 md:text-4xl">
+        Mobile Development Expertise
     </h2>
 
     {/* <!-- Content Wrapper --> */}
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
     {/* <!-- Text Content --> */}
-    <div>
-        <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-        I Build User-Centric Mobile Applications
+    <div className="lg:ms-10 text-sm md:text-base">
+        <h3 className="text-xl text-center font-semibold text-gray-800 mb-4">
+            I Build User-Centric Mobile Applications
         </h3>
         <p className="text-gray-600 mb-4">
         With a passion for mobile development, I specialize in creating
@@ -140,12 +133,12 @@ function AboutMe() {
         <p className="text-gray-600 mb-4">
         Technologies used in GeniusLand:
         </p>
-        <ul className="list-disc list-inside text-gray-600 mb-4">
+        <ul className="list-disc list-outside ms-5 text-gray-600 mb-4">
         <li><span className="font-medium text-gray-800">React Native Paper</span>: Smooth and consistent UI components</li>
         <li><span className="font-medium text-gray-800">TanStack Query</span>: Efficient data fetching and state management</li>
         <li><span className="font-medium text-gray-800">Async Storage</span>: Seamless offline data storage</li>
         </ul>
-        <p className="text-gray-600">
+        <p className="text-gray-600 ms-5">
         I strive to create seamless and powerful user experiences that solve
         real-world problems.
         </p>
