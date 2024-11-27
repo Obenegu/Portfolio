@@ -11,7 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        back: "lightgray"
       },
+      extend: {
+        screens: {
+          'sm': '320px',
+        }
+      }
     },
   },
   plugins: [],
