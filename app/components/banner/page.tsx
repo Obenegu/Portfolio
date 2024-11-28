@@ -14,10 +14,10 @@ function Banner() {
           <Image src={NavButton} alt='nav button' />
         </div>
       </div>
-      <div className='grid place-items-center py-9 h-3/5'>
-        <div className=''>
-          <h1 className='banner-heading-fs font-bold text-center tracking-wider'>TABOT JUNIOR</h1>
-          <p className='font-light banner-paragraph-fs text-center'>FRONT-END WEB <br /> DEVELOPER</p>
+      <div className='grid place-items-center md:place-items-start py-9 h-3/5'>
+        <div className='md:w-2/4 md:ms-12'>
+          <h1 className='banner-heading-fs font-bold text-center md:text-left tracking-wider'>TABOT JUNIOR</h1>
+          <p className='font-light banner-paragraph-fs text-center md:text-left'>FRONT-END WEB <br /> DEVELOPER</p>
         </div>
       </div>
     </div>
